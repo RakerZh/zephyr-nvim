@@ -5,6 +5,7 @@
     width="0px"
   />
   🎨 zephyr-nvim
+  a forked version from zephyr-nvim
   <img
     src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png"
     height="30"
@@ -52,7 +53,7 @@ A dark neovim colorscheme written in lua and syntax based on
 - [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'glepnir/zephyr-nvim'
+Plug 'RakerZh/zephyr-nvim'
 Plug 'nvim-treesitter/nvim-treesitter'
 ```
 
@@ -60,7 +61,7 @@ Plug 'nvim-treesitter/nvim-treesitter'
 
 ```lua
 use({
-  'glepnir/zephyr-nvim',
+  'RakerZh/zephyr-nvim',
   requires = { 'nvim-treesitter/nvim-treesitter', opt = true },
 })
 ```
