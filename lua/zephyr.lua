@@ -238,12 +238,17 @@ local plugin_syntax = {
 	NvimTreeSpecialFile = { fg = z.fg, bg = z.none },
 	NvimTreeGitDirty = { fg = z.redwine },
 
-	TelescopeBorder = { fg = z.teal },
-	TelescopePromptBorder = { fg = z.blue },
-	TelescopeMatching = { fg = z.teal },
-	TelescopeSelection = { fg = z.yellow, bg = z.bg_highlight, bold = true },
-	TelescopeSelectionCaret = { fg = z.yellow },
-	TelescopeMultiSelection = { fg = z.teal },
+	TelescopeBorder = { fg = z.blue },
+	TelescopePromptBorder = { fg = z.redwine },
+	TelescopePromptTitle = { fg = z.base2, bg = z.redwine },
+	TelescopeMultiIcon = { fg = z.yellow },
+	TelescopeMatching = { fg = z.red },
+	TelescopeSelection = { fg = z.bracket, bg = z.bg_highlight, bold = true },
+	TelescopePromptPrefix = { fg = z.red },
+	TelescopeSelectionCaret = { fg = z.blue },
+	TelescopeMultiSelection = { fg = z.red },
+	TelescopePreviewTitle = { fg = z.base2, bg = z.blue },
+	TelescopeResultsTitle = { fg = z.base2, bg = z.blue },
 
 	-- nvim v0.6.0+
 	DiagnosticSignError = { fg = z.red },
