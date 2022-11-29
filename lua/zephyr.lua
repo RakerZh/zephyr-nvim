@@ -127,7 +127,7 @@ local syntax = {
 	Define = { fg = z.violet },
 	Conditional = { fg = z.magenta },
 	Repeat = { fg = z.magenta },
-	Keyword = { fg = z.green },
+	Keyword = { fg = z.yellow },
 	Typedef = { fg = z.red },
 	Exception = { fg = z.red },
 	Statement = { fg = z.red },
@@ -140,7 +140,7 @@ local syntax = {
 	Title = { fg = z.orange, bold = true },
 	Special = { fg = z.yellow },
 	SpecialChar = { fg = z.yellow },
-	Type = { fg = z.teal },
+	Type = { fg = "#ea5f85" },
 	Function = { fg = z.yellow },
 	String = { fg = z.lignt_orange },
 	Character = { fg = z.green },
@@ -163,12 +163,13 @@ local syntax = {
 }
 
 local plugin_syntax = {
-	["@function"] = { fg = z.cyan },
-	["@method"] = { fg = z.cyan },
+	["@function"] = { fg = z.redwine },
+	["@method"] = { fg = "#8b99f0" },
 	["@keyword.function"] = { fg = z.red },
 	["@property"] = { fg = z.yellow },
-	["@type"] = { fg = z.teal },
-	["@variable"] = { fg = "#f2f2bf" },
+	["@type"] = { fg = z.red },
+  -- 142850
+	["@variable"] = { fg = "#c1cfe3" },
 	["@punctuation.bracket"] = { fg = z.bracket },
 
 	vimCommentTitle = { fg = z.grey, bold = true },
